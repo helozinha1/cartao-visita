@@ -1,12 +1,13 @@
-import React from 'react'
-import './FotoPerfil.css'
-
-const FotoPerfil = () => {
+export default function FotoPerfil() {
   return (
-    <div className="foto-perfil">
-      <img src="https://i.pinimg.com/originals/b1/f5/c4/b1f5c4f6d5a6a8e6e8f4e9d6c0a0f3f7.jpg" alt="foto perfil" />
+    <div className="foto-container">
+      <img 
+        src="https://pbs.twimg.com/media/HUo9C9CWUAAvoXM?format=webp&name=large" 
+        alt="Foto de Perfil" 
+        style={{ borderRadius: '50%', width: '150px', height: '150px' }}
+      />
+      <h2>Helo</h2>
+      <p>Desenvolvedor Back-end</p>
     </div>
-  )
+  );
 }
-
-export default FotoPerfil

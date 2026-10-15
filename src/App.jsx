@@ -1,11 +1,11 @@
-import React from 'react'
-import FotoPerfil from './components/FotoPerfil'
-import './App.css'
+import FotoPerfil from './components/FotoPerfil';
+import DadosContato from './components/DadosContatos';
 
 export default function App() {
-return (
-  <div className="app">
-    <FotoPerfil />
-  </div>
-)
+  return (
+    <div className="container">
+      <FotoPerfil />
+      <DadosContato />
+    </div>
+  );
 }
